@@ -25,10 +25,10 @@ His specific interest is Machine Learning and Data Science.
 Learn more at: <a href="http://lnkd.in/bYbxPKm" class="btn btn-info">LinkedIn!</a>
 
 ## How to Reach Me?
-Email: echo c2l5YW8ubGkuc3pleWl1QGdtYWlsLmNvbQo= | base64 -D
+Email: `echo c2l5YW8ubGkuc3pleWl1QGdtYWlsLmNvbQo= | base64 -D`
 
 ## Breif Bio
 * Born in Beijing, P.R. China.
-* Obtained B.S. Degree, Computer Science as major, from Shanghai Jiao Tong University, Shanghai, P.R. China.
-* Pursuing M.S. Degree, Computer Science as major, at Columbia University, New York, United States.
+* Obtained B.S. Degree, Computer Science as major, from **Shanghai Jiao Tong University**, Shanghai, P.R. China.
+* Pursuing M.S. Degree, Computer Science as major, at **Columbia University**, New York, United States.
 

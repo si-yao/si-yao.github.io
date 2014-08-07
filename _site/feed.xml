@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://0.0.0.0:4000" />
-<updated>2014-08-07T12:34:49-04:00</updated>
+<updated>2014-08-07T14:04:28-04:00</updated>
 <id>http://0.0.0.0:4000/</id>
 <author>
   <name>Siyao Li</name>
@@ -14,9 +14,38 @@
 
 
 <entry>
-  <title type="html"><![CDATA[A Post with my Video]]></title>
- <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/video-post/" />
-  <id>http://0.0.0.0:4000/video-post</id>
+  <title type="html"><![CDATA[My Personal Website is Open Now]]></title>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2014/08/08/my-website-is-open/" />
+  <id>http://0.0.0.0:4000/2014/08/08/my-website-is-open</id>
+  <published>2014-08-08T00:00:00-04:00</published>
+  <updated>2014-08-08T00:00:00-04:00</updated>
+  <author>
+    <name>Siyao Li</name>
+    <uri>http://0.0.0.0:4000</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;why-blog&quot;&gt;Why Blog&lt;/h2&gt;
+
+&lt;p&gt;Finally I decide to open my own customized personal blog website. The reason why I open such a nonesense is not because I want to say something powerfully, rather more, I just want to own my own website, as if the whole designing and coding is all by myself. Unfortunately, not. Nevertheless, I have the superuser root of the website. I could modify codes, adding new features into the site. It seems I have things to do when I feel bored at the mid-night.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-it-works&quot;&gt;How it Works&lt;/h2&gt;
+
+&lt;p&gt;Actually, creating such a website is a little bit technical. At first, I thought website should be something like J2EE or .Net, at least involving database. I thought that a website with pure html is just document instead of website. But actually, static website, namely html, could be more powerful than what I have thought. Some tools like &lt;em&gt;jekyll&lt;/em&gt; can automatically generate static website pages according to your posts. I am not trying to make you understand how this site works. I just want to let you know how powerful a static website could be.&lt;/p&gt;
+
+&lt;p&gt;Although pure html pages do not involve with database, it does not mean that the website cannot have fancy features that requires persistent data. We can add some third-part JS plug-in into our html pages. Actually, the plug-in providers have database to store and load your data. I use a fancy plug-in &lt;em&gt;DISQUS&lt;/em&gt; that allows readers to add comments via facebook, twitter etc. The comments are not stored in my website, instead, it stores at DISQUS server. Comments data will be loaded everytime I call the plugin. So, static website is powerful!&lt;/p&gt;
+
+&lt;p&gt;If you are interested in creating your own blog at Github Pages, here is a short guide. You may use Jekyll to generate html pages from plain text (actually markdown format). You can use some fancy Jekyll themes contributed by awsome desingers. So the whole technical things are Github + Jekyll + Markdown formate. Buildnig your own blog is simple!&lt;/p&gt;
+
+&lt;p&gt;So, I am trying to persuade William Wang to use Jekyll or other generators to build his personal website at UMich, which looks like fancier. :P&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2014/08/08/my-website-is-open/&quot;&gt;My Personal Website is Open Now&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on August 08, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[A Post with My Video]]></title>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2013/01/01/video-post/" />
+  <id>http://0.0.0.0:4000/2013/01/01/video-post</id>
   <published>2013-01-01T00:00:00-05:00</published>
   <updated>2013-01-01T00:00:00-05:00</updated>
   <author>
@@ -28,7 +57,7 @@
 
 &lt;h2 id=&quot;this-is-my-first-original-video&quot;&gt;This is my first original video&lt;/h2&gt;
 
-&lt;p&gt;This is my first orignial video in my life. I happened to play the multi-player version of Flappy Bird online, a very popular mobile game for a time. I saw the source code and found that this game is purely made by javascrip! How amazing! For the sake of respect, I hacked the code and gave the bird super power . I feel happy to see all of other birds fall down time after time, while my bird is free to across to wall. I uploaded the video to &lt;a href=&quot;www.bilibili.tv/video/av967176/&quot;&gt;bilibili&lt;/a&gt; and watched by thousands of people, and got nearly a hundred comments. That’s fun!&lt;/p&gt;
+&lt;p&gt;This is my first orignial video in my life. I happened to play the multi-player version of Flappy Bird online, a very popular mobile game for a time. I saw the source code and found that this game is purely made by javascrip! How amazing! For the sake of respect, I hacked the code and gave the bird super power. I feel happy to see all of other birds fall down time after time, while my bird is free to cross to wall. I uploaded the video to &lt;a href=&quot;www.bilibili.tv/video/av967176/&quot;&gt;bilibili&lt;/a&gt; and has been watched by thousands of people, and got nearly a hundred comments. That’s fun!&lt;/p&gt;
 
 &lt;h2 id=&quot;descriptions-about-the-function-of-embeded-video&quot;&gt;Descriptions about the function of embeded video&lt;/h2&gt;
 
@@ -38,14 +67,14 @@
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;560&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;315&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;//www.youtube.com/embed/SU3kYxJmWuQ&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;0&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/video-post/&quot;&gt;A Post with my Video&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/video-post/&quot;&gt;A Post with My Video&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[A Post with Images]]></title>
- <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/sample-post-images/" />
-  <id>http://0.0.0.0:4000/sample-post-images</id>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2013/01/01/sample-post-images/" />
+  <id>http://0.0.0.0:4000/2013/01/01/sample-post-images</id>
   <published>2013-01-01T00:00:00-05:00</published>
   <updated>2013-01-01T00:00:00-05:00</updated>
   <author>
@@ -107,14 +136,14 @@
 	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sample Post]]></title>
- <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/sample-post/" />
-  <id>http://0.0.0.0:4000/sample-post</id>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2013/01/01/sample-post/" />
+  <id>http://0.0.0.0:4000/2013/01/01/sample-post</id>
   <updated>2013-01-01T00:00:00-00:00</updated>
   <published>2013-01-01T00:00:00-05:00</published>
   
@@ -248,14 +277,14 @@
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sample Link Post]]></title>
  <link rel="alternate" type="text/html" href="http://mademistakes.com" />
-  <id>http://0.0.0.0:4000/sample-link-post</id>
+  <id>http://0.0.0.0:4000/2013/01/01/sample-link-post</id>
   <published>2013-01-01T00:00:00-05:00</published>
   <updated>2013-01-01T00:00:00-05:00</updated>
   <author>
@@ -265,14 +294,14 @@
   </author>
   <content type="html">&lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
- <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/readability-post/" />
-  <id>http://0.0.0.0:4000/readability-post</id>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2013/01/01/readability-post/" />
+  <id>http://0.0.0.0:4000/2013/01/01/readability-post</id>
   <published>2013-01-01T00:00:00-05:00</published>
   <updated>2013-01-01T00:00:00-05:00</updated>
   <author>
@@ -321,14 +350,14 @@
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
- <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/readability-feature-post/" />
-  <id>http://0.0.0.0:4000/readability-feature-post</id>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2013/01/01/readability-feature-post/" />
+  <id>http://0.0.0.0:4000/2013/01/01/readability-feature-post</id>
   <updated>2013-01-01T00:00:00-00:00</updated>
   <published>2013-01-01T00:00:00-05:00</published>
   
@@ -378,14 +407,14 @@
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Syntax Highlighting Post]]></title>
- <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/code-highlighting-post/" />
-  <id>http://0.0.0.0:4000/code-highlighting-post</id>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2013/01/01/code-highlighting-post/" />
+  <id>http://0.0.0.0:4000/2013/01/01/code-highlighting-post</id>
   <updated>2013-01-01T00:00:00-00:00</updated>
   <published>2013-01-01T00:00:00-05:00</published>
   
@@ -496,14 +525,14 @@ end
 &lt;script src=&quot;https://gist.github.com/8531391.js&quot;&gt; &lt;/script&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with a Background Image]]></title>
- <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/background-image/" />
-  <id>http://0.0.0.0:4000/background-image</id>
+ <link rel="alternate" type="text/html" href="http://0.0.0.0:4000/2013/01/01/background-image/" />
+  <id>http://0.0.0.0:4000/2013/01/01/background-image</id>
   <published>2013-01-01T00:00:00-05:00</published>
   <updated>2013-01-01T00:00:00-05:00</updated>
   <author>
@@ -522,7 +551,7 @@ end
 
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://0.0.0.0:4000/2013/01/01/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Siyao Li at &lt;a href=&quot;http://0.0.0.0:4000&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>

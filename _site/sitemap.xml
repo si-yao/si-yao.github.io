@@ -6,7 +6,7 @@
     
     
     <url>
-        <loc>http://0.0.0.0:4000/404.html</loc>
+        <loc>http://0.0.0.0:4000/404/</loc>
     </url>
     
     <url>
@@ -18,7 +18,7 @@
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/index.html</loc>
+        <loc>http://0.0.0.0:4000/</loc>
     </url>
     
     <url>
@@ -38,41 +38,45 @@
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/page2/index.html</loc>
+        <loc>http://0.0.0.0:4000/page2/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://0.0.0.0:4000/video-post/</loc>
+        <loc>http://0.0.0.0:4000/2014/08/08/my-website-is-open/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/sample-post-images/</loc>
+        <loc>http://0.0.0.0:4000/2013/01/01/video-post/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/sample-post/</loc>
+        <loc>http://0.0.0.0:4000/2013/01/01/sample-post-images/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/sample-link-post/</loc>
+        <loc>http://0.0.0.0:4000/2013/01/01/sample-post/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/readability-post/</loc>
+        <loc>http://0.0.0.0:4000/2013/01/01/sample-link-post/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/readability-feature-post/</loc>
+        <loc>http://0.0.0.0:4000/2013/01/01/readability-post/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/code-highlighting-post/</loc>
+        <loc>http://0.0.0.0:4000/2013/01/01/readability-feature-post/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/background-image/</loc>
+        <loc>http://0.0.0.0:4000/2013/01/01/code-highlighting-post/</loc>
+    </url>
+    
+    <url>
+        <loc>http://0.0.0.0:4000/2013/01/01/background-image/</loc>
     </url>
     
 </urlset>
