@@ -14,8 +14,7 @@ share: true
 
 Siyao Li is a graduate student international at *Columbia University in the City of New York*. He is full of passion and energy to learn and try the fanciest technology in the universe. Lately, he joined internship with *HP* and *eBay*, and he is deeply attracted by what they deliver. 
 He is looking for 2015 summer (Software Dev) internship opportunity in United States.
-His specific interest is Machine Learning and Data Science. Learn more at: 
-<div markdown=“0”><a href="http://lnkd.in/bYbxPKm" class="btn btn-info">LinkedIn!</a></div>
+His specific interest is Machine Learning and Data Science. Learn more at: <a href="http://lnkd.in/bYbxPKm" class="btn btn-info">LinkedIn!</a>
 
 ## How to Reach Me?
 Email: echo c2l5YW8ubGkuc3pleWl1QGdtYWlsLmNvbQo= | base64 -D
