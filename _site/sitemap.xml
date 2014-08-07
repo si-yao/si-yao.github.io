@@ -44,23 +44,7 @@
 
     
     <url>
-        <loc>http://0.0.0.0:4000/background-image/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/code-highlighting-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/sample-link-post/</loc>
-    </url>
-    
-    <url>
         <loc>http://0.0.0.0:4000/video-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/readability-feature-post/</loc>
     </url>
     
     <url>
@@ -68,11 +52,27 @@
     </url>
     
     <url>
+        <loc>http://0.0.0.0:4000/sample-post/</loc>
+    </url>
+    
+    <url>
+        <loc>http://0.0.0.0:4000/sample-link-post/</loc>
+    </url>
+    
+    <url>
         <loc>http://0.0.0.0:4000/readability-post/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/sample-post/</loc>
+        <loc>http://0.0.0.0:4000/readability-feature-post/</loc>
+    </url>
+    
+    <url>
+        <loc>http://0.0.0.0:4000/code-highlighting-post/</loc>
+    </url>
+    
+    <url>
+        <loc>http://0.0.0.0:4000/background-image/</loc>
     </url>
     
 </urlset>
