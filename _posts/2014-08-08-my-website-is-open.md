@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Personal Website is Open Now"
+title: "My Personal Website is Now Open"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
 tags: [technology, personal]
 comments: true
