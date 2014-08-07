@@ -15,9 +15,9 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         si-yao
   stackexchange:  
-  #linkedin:      Siyao Li 
+  linkedin:      
   instagram:      
   flickr:         
   tumblr:         
@@ -37,8 +37,9 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
-    url: /theme-setup
+  - title: Weibo
+    url: http://www.weibo.com/szeyiu827/
+    external: true
   - title: External Link
     url: http://mademistakes.com
     external: true

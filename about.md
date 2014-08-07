@@ -10,8 +10,8 @@ image:
 share: true
 ---
 <figure>
-	<img src="/images/about-1.jpg" alt=""></a>
-	<figcaption><a title="My Graduation Picture at Shanghai Jiao Tong University, in Front of Library.">My Graduation Picture at Shanghai Jiao Tong University, in Front of Library</a></figcaption>
+	<a href="/images/about-1.jpg"><img src="/images/about-1.jpg" alt=""></a>
+	<figcaption>My Graduation Picture at Shanghai Jiao Tong University, in Front of Library</figcaption>
 </figure>
 
 ## Who Am I?
