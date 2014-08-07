@@ -3,6 +3,10 @@ layout: post
 title: "My Personal Website is Now Open"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
 tags: [technology, personal]
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: true
 share: true
 ---
