@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About Siyao (思尧)
+title: About Siyao
 tags: [Jekyll, theme, modern, minimal, responsive]
 image:
   feature: abstract-5.jpg
@@ -13,6 +13,7 @@ share: true
 >The crazy individual enjoys his crazy life at Columbia University, learning the unaccessible, pursuing the unreachable.
 
 Siyao Li is a graduate student international at *Columbia University in the City of New York*. He is full of passion and energy to learn and try the fanciest technology in the universe. Lately, he joined internship with *HP* and *eBay*, and he is deeply attracted by what they deliver. 
+
 He is looking for 2015 summer (Software Dev) internship opportunity in United States.
 His specific interest is Machine Learning and Data Science. 
 
