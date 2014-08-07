@@ -10,7 +10,7 @@ share: true
 
 ## This is my first original video
 
-This is my first orignial video in my life. I happened to play the multi-player version of Flappy Bird online, a very popular mobile game for a time. I saw the source code and found that this game is purely made by javascrip! How amazing! For the sake of respect, I hacked the code and gave the bird super power . I feel happy to see all of other birds fall down time after time, while my bird is free to across to wall. I uploaded the video to [bilibili](www.bilibili.tv/video/av967176/) and watched by thousands of people, and got nearly a hundred comments. That's fun!
+This is my first orignial video in my life. I happened to play the multi-player version of Flappy Bird online, a very popular mobile game for a time. I saw the source code and found that this game is purely made by javascrip! How amazing! For the sake of respect, I hacked the code and gave the bird super power. I feel happy to see all of other birds fall down time after time, while my bird is free to across to wall. I uploaded the video to [bilibili](www.bilibili.tv/video/av967176/) and watched by thousands of people, and got nearly a hundred comments. That's fun!
 
 ##Descriptions about the function of embeded video
 
