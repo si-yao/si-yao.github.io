@@ -9,6 +9,11 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 share: true
 ---
+<figure>
+	<img src="/images/about-1.jpg" alt=""></a>
+	<figcaption><a title="My Graduation Picture at Shanghai Jiao Tong University, in Front of Library.">My Graduation Picture at Shanghai Jiao Tong University, in Front of Library</a></figcaption>
+</figure>
+
 ## Who Am I?
 >The crazy individual enjoys his crazy life at Columbia University, learning the unaccessible, pursuing the unreachable.
 

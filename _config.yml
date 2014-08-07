@@ -1,29 +1,29 @@
 title:            Le blog de Siyao
 description:      My lovely blog shows me to the universe.
-disqus_shortname: 
+disqus_shortname: siyao
 reading_time:     true
 words_per_minute: 200
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://si-yao.github.io
-#url:              http://0.0.0.0:4000 
+#url:              http://si-yao.github.io
+url:              http://0.0.0.0:4000 
 # Owner/author information
 owner:
   name:           Siyao Li
   avatar:         siyao.jpg
   bio:            "The crazy individual enjoys his crazy life at Columbia University, learning the unaccessible, pursuing the unreachable."
-  email:          echo c2wzNzY2QGNvbHVtYmlhLmVkdQo= | base64 -D
+  #email:          echo c2wzNzY2QGNvbHVtYmlhLmVkdQo= | base64 -D
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
   github:         
   stackexchange:  
-  linkedin:      Siyao Li 
+  #linkedin:      Siyao Li 
   instagram:      
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  #google_plus:    +yourid
 
 # Background image to be tiled on all pages
 background: 

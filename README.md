@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /readme/
-title: Theme Setup
+title: Readme
 description: "Instructions on how to install and customize the modern Jekyll theme HPSTR."
 tags: [Jekyll, theme, install, setup]
 image:
