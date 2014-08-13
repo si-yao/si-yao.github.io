@@ -13,20 +13,21 @@ owner:
   bio:            "The crazy individual enjoys his crazy life at Columbia University, learning the unaccessible, pursuing the unreachable."
   #email:          echo c2wzNzY2QGNvbHVtYmlhLmVkdQo= | base64 -D
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        SzeYiu_Lee
   facebook:       
   github:         si-yao
   stackexchange:  
-  linkedin:      
+  linkedin:      http://lnkd.in/bYbxPKm
   instagram:      
   flickr:         
   tumblr:         
+  weibo:        http://www.weibo.com/szeyiu827/
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
   #google_plus:    +yourid
 
 # Background image to be tiled on all pages
-background: 
+background: /images/background.jpg
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-53635251-1
@@ -37,11 +38,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Weibo
-    url: http://www.weibo.com/szeyiu827/
-    external: true
   - title: More About Me
     url: /about/
+  - title: RSS
+  url: /feed/
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
