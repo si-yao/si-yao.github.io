@@ -41,7 +41,7 @@ links:
   - title: More About Me
     url: /about/
   - title: RSS
-  url: /feed/
+    url: /feed/
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
