@@ -1,82 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://0.0.0.0:4000</loc>
+        <loc>http://si-yao.github.io</loc>
     </url>
     
     
     <url>
-        <loc>http://0.0.0.0:4000/404/</loc>
+        <loc>http://si-yao.github.io/404.html</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/about/</loc>
+        <loc>http://si-yao.github.io/about/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/feed.xml</loc>
+        <loc>http://si-yao.github.io/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/</loc>
+        <loc>http://si-yao.github.io/index.html</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/posts/</loc>
+        <loc>http://si-yao.github.io/posts/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/sitemap.xml</loc>
+        <loc>http://si-yao.github.io/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/tags/</loc>
+        <loc>http://si-yao.github.io/tags/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/theme-setup/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/page2/</loc>
+        <loc>http://si-yao.github.io/theme-setup/</loc>
     </url>
     
 
     
     <url>
-        <loc>http://0.0.0.0:4000/2014/08/08/my-website-is-open/</loc>
+        <loc>http://si-yao.github.io/night-of-new-york-city/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/video-post/</loc>
+        <loc>http://si-yao.github.io/my-website-is-open/</loc>
     </url>
     
     <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/sample-post-images/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/sample-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/sample-link-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/readability-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/readability-feature-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/code-highlighting-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://0.0.0.0:4000/2013/01/01/background-image/</loc>
+        <loc>http://si-yao.github.io/video-post/</loc>
     </url>
     
 </urlset>

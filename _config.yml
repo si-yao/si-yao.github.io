@@ -51,9 +51,9 @@ highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   pretty
+#permalink:   pretty
 #You can customize the path 
-#permalink:   /:categories/:title/
+permalink:   /:categories/:title/
 
 # Amount of post to show on home page
 paginate: 5
