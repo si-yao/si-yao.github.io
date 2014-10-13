@@ -19,6 +19,6 @@ Very similar to the aumtumn of Beijing, it is cool, it is dry, and it is landsca
 </figure>
 
 <figure>
-	<a href="/images/autumn4s.jpg"><img src="/images/autumn4.jpg" alt=""></a>
+	<a href="/images/autumn4s.JPG"><img src="/images/autumn4.jpg" alt=""></a>
 	<figcaption>View Outside My Window</figcaption>
 </figure>
