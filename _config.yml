@@ -8,9 +8,9 @@ url:              http://si-yao.github.io
 #url:              http://0.0.0.0:4000
 # Owner/author information
 owner:
-  name:           Siyao Li
-  avatar:         siyao.jpg
-  bio:            "The crazy individual enjoys his crazy life at Columbia University, learning the unaccessible, pursuing the unreachable."
+  name:           Siyao
+  avatar:         siyao.png
+  bio:            "The individual enjoys his fancy life at Columbia University, learning the unaccessible, pursuing the unreachable."
   #email:          echo c2wzNzY2QGNvbHVtYmlhLmVkdQo= | base64 -D
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
@@ -21,7 +21,7 @@ owner:
   instagram:      
   flickr:         
   tumblr:         
-  weibo:        http://www.weibo.com/szeyiu827/
+  weibo:
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
   #google_plus:    +yourid
