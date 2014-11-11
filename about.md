@@ -11,7 +11,7 @@ share: true
 ---
 
 ## Who Am I?
-
+I am a Master student at Columbia University, Computer Science as major.
 I am looking for 2015 summer (Software Dev) internship opportunity in United States.
 My specific interest is Software Engineering with Machine Learning and Data Science. 
 
