@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Post with My Video"
+title: "Hack Online Flappy Bird"
 description: "Custom written post descriptions are the way to go... if you're not lazy."
 tags: [sample]
 comments: true
