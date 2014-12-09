@@ -5,6 +5,10 @@ description: "Custom written post descriptions are the way to go... if you're no
 tags: [vision]
 comments: true
 share: true
+image:
+  feature: abstract-3.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 ---
 <iframe width="420" height="315" src="//www.youtube.com/embed/FXSV6U0wo-s" frameborder="0" allowfullscreen></iframe>
 
