@@ -4,13 +4,38 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://si-yao.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://si-yao.github.io" />
-<updated>2014-12-09T16:53:39-05:00</updated>
+<updated>2015-01-25T17:33:55-05:00</updated>
 <id>http://si-yao.github.io/</id>
 <author>
   <name>Siyao</name>
   <uri>http://si-yao.github.io/</uri>
   <email></email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[iOS: 3 Ways to Create Views]]></title>
+ <link rel="alternate" type="text/html" href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/" />
+  <id>http://si-yao.github.io/IOS-3-Ways-To-Create-Views</id>
+  <published>2015-01-25T00:00:00-05:00</published>
+  <updated>2015-01-25T00:00:00-05:00</updated>
+  <author>
+    <name>Siyao</name>
+    <uri>http://si-yao.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I just started to learn iOS dev. And I discovered 3 ways to organized and navigate views for iOS. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Storyboard&lt;/li&gt;
+  &lt;li&gt;Xib&lt;/li&gt;
+  &lt;li&gt;By programming code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I initially followed the &lt;strong&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html&quot;&gt;tutorial&lt;/a&gt;&lt;/strong&gt; provided by Apple, and it instructs to use storyboard to organize views, which is visualizable. And later on I found &lt;strong&gt;&lt;a href=&quot;https://github.com/fbsamples/ios-howtos&quot;&gt;some other projects&lt;/a&gt;&lt;/strong&gt; are using xib. Some articles summrized the pro/con of those two methods. But the most interesting/technical way is to write view by code. I dig into the source code of &lt;strong&gt;&lt;a href=&quot;https://parse.com/tutorials/anypic&quot;&gt;Anypic&lt;/a&gt;&lt;/strong&gt;, and fonud that programming the view is more universal though less visualizable. But I still love the third one. I found an &lt;strong&gt;&lt;a href=&quot;http://codewithchris.com/xcode-using-storyboards-and-xibs-versus-creating-views-programmatically/&quot;&gt;article&lt;/a&gt;&lt;/strong&gt; the compares the 3 methods for reference. &lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/IOS-3-Ways-To-Create-Views/&quot;&gt;iOS: 3 Ways to Create Views&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 25, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -122,9 +147,9 @@ Very similar to the aumtumn of Beijing, it is cool, it is dry, and it is landsca
 
 
 <entry>
-  <title type="html"><![CDATA[A Post with My Video]]></title>
- <link rel="alternate" type="text/html" href="http://si-yao.github.io/video-post/" />
-  <id>http://si-yao.github.io/video-post</id>
+  <title type="html"><![CDATA[Hack Online Flappy Bird]]></title>
+ <link rel="alternate" type="text/html" href="http://si-yao.github.io/Hack-Online-Flappy-Bird/" />
+  <id>http://si-yao.github.io/Hack-Online-Flappy-Bird</id>
   <published>2013-01-01T00:00:00-05:00</published>
   <updated>2013-01-01T00:00:00-05:00</updated>
   <author>
@@ -138,9 +163,9 @@ Very similar to the aumtumn of Beijing, it is cool, it is dry, and it is landsca
 
 &lt;p&gt;I am using this video to test video-embeding function.&lt;/p&gt;
 
-&lt;p&gt;This is my first orignial video in my life. I happened to play the multi-player version of Flappy Bird online, a very popular mobile game for a time. I saw the source code and found that this game is purely made by javascript! How amazing! For the sake of respect, I hacked the code and gave the bird super power. I feel happy to see all of other birds fall down time after time, while my bird is free to cross the wall. I uploaded the video to &lt;a href=&quot;http://www.bilibili.tv/video/av967176/&quot;&gt;bilibili&lt;/a&gt; and has been watched by thousands of people, and got nearly a hundred comments. That’s fun!&lt;/p&gt;
+&lt;p&gt;This is my first orignial video in my life. I happened to play the multi-player version of Flappy Bird online, a very popular mobile game for a time. I saw the source code and found that this game is purely made by javascript! How amazing! For the sake of respect, I hacked the code and gave the bird super power. I feel happy to see all of other birds fall down time after time, while my bird is free to cross the wall. I uploaded the video to &lt;strong&gt;&lt;a href=&quot;http://www.bilibili.tv/video/av967176/&quot;&gt;BILIBILI&lt;/a&gt;&lt;/strong&gt; and has been watched by thousands of people, and got nearly a hundred comments. That’s fun!&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/video-post/&quot;&gt;A Post with My Video&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Hack-Online-Flappy-Bird/&quot;&gt;Hack Online Flappy Bird&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>
