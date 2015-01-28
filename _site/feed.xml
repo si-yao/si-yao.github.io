@@ -4,13 +4,57 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://si-yao.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://si-yao.github.io" />
-<updated>2015-01-25T17:33:55-05:00</updated>
+<updated>2015-01-28T00:42:04-05:00</updated>
 <id>http://si-yao.github.io/</id>
 <author>
   <name>Siyao</name>
   <uri>http://si-yao.github.io/</uri>
   <email></email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Summary of Binary Tree Traversal]]></title>
+ <link rel="alternate" type="text/html" href="http://si-yao.github.io/Treversal-Of-Tree/" />
+  <id>http://si-yao.github.io/Treversal-Of-Tree</id>
+  <published>2015-01-28T00:00:00-05:00</published>
+  <updated>2015-01-28T00:00:00-05:00</updated>
+  <author>
+    <name>Siyao</name>
+    <uri>http://si-yao.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;I guess some people think that iterative version of tree traversal is tedious to implement. But I found a very interesting fact that could make it as simple as recursive version.&lt;/p&gt;
+
+&lt;p&gt;As a reminder, for recursive version of pre/in/post-order traversal, the only difference is the order of following three lines:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-l1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-l2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Similarly, if we take advantage of dummy node, for iterative version, the only difference is also the order of three lines:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l2&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You may have noticed that the above two clips of code both represent the inorder traversal. And if we follow the order of rec-l1, rec-l3, rec-l2 or iter-l2, iter-l1, iter-l3, then we could get the postorder traversal. The source code of iterative version is shown at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreeInorderTraversal/DummyNode.java&quot;&gt;inorder (iterative)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/DummyNode.java&quot;&gt;postorder (iterative)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most interestingly, there is another property of postorder traversal. Suppose we have a tree T, and the mirror tree of T is T’. Then &lt;em&gt;postorder(T).reverse()&lt;/em&gt; equals to &lt;em&gt;preorder(T’)&lt;/em&gt;. So, if we use two stacks, then we could solve the postorder problem more simpler! The source code is shown at: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/TwoStack.java&quot;&gt;postorder (two stacks)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both 2 solutions for postorder traversal can be extended to solve the n-ary tree postorder traversal (which could be a follow-up in a interview!). &lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Treversal-Of-Tree/&quot;&gt;Summary of Binary Tree Traversal&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 28, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -35,36 +79,6 @@
 &lt;p&gt;I initially followed the &lt;strong&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html&quot;&gt;tutorial&lt;/a&gt;&lt;/strong&gt; provided by Apple, and it instructs to use storyboard to organize views, which is visualizable. And later on I found &lt;strong&gt;&lt;a href=&quot;https://github.com/fbsamples/ios-howtos&quot;&gt;some other projects&lt;/a&gt;&lt;/strong&gt; are using xib. Some articles summrized the pro/con of those two methods. But the most interesting/technical way is to write view by code. I dig into the source code of &lt;strong&gt;&lt;a href=&quot;https://parse.com/tutorials/anypic&quot;&gt;Anypic&lt;/a&gt;&lt;/strong&gt;, and fonud that programming the view is more universal though less visualizable. But I still love the third one. I found an &lt;strong&gt;&lt;a href=&quot;http://codewithchris.com/xcode-using-storyboards-and-xibs-versus-creating-views-programmatically/&quot;&gt;article&lt;/a&gt;&lt;/strong&gt; the compares the 3 methods for reference. &lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/IOS-3-Ways-To-Create-Views/&quot;&gt;iOS: 3 Ways to Create Views&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 25, 2015.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Demo: Kinect Tracking(Undergrad Proj)]]></title>
- <link rel="alternate" type="text/html" href="http://si-yao.github.io/Kinect-Tracking/" />
-  <id>http://si-yao.github.io/Kinect-Tracking</id>
-  <published>2014-12-09T00:00:00-05:00</published>
-  <updated>2014-12-09T00:00:00-05:00</updated>
-  <author>
-    <name>Siyao</name>
-    <uri>http://si-yao.github.io</uri>
-    <email></email>
-  </author>
-  <content type="html">&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/FXSV6U0wo-s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;I would like to share my undergrad proj with my friends.&lt;/p&gt;
-
-&lt;p&gt;I Involved in Computer Vision research and Microsoft Kinect development. Designed and developed a high-performance face tracking application using depth image from Kinect. The project is implemented in C++ with OpenCV. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The importance of the project is that:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Your face can be highly covered by obstacles. (Demonstrated at 0:40)&lt;/li&gt;
-  &lt;li&gt;it is able to track face in dark environment! (Demonstrated at 1:40)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Thanks to my advior: &lt;a href=&quot;http://bcmi.sjtu.edu.cn/~blu/&quot;&gt;Prof. Baoliang Lu&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Kinect-Tracking/&quot;&gt;Demo: Kinect Tracking(Undergrad Proj)&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on December 09, 2014.&lt;/p&gt;</content>
 </entry>
 
 

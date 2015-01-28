@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Demo: Kinect Tracking(Undergrad Proj) &#8211; Le blog de Siyao</title>
+<title>Summary of Binary Tree Traversal &#8211; Le blog de Siyao</title>
 <meta name="description" content="Custom written post descriptions are the way to go... if you're not lazy.">
-<meta name="keywords" content="vision">
+<meta name="keywords" content="algorithm, technology">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Demo: Kinect Tracking(Undergrad Proj)">
+<meta property="og:title" content="Summary of Binary Tree Traversal">
 <meta property="og:description" content="Custom written post descriptions are the way to go... if you're not lazy.">
-<meta property="og:url" content="http://si-yao.github.io/Kinect-Tracking/">
+<meta property="og:url" content="http://si-yao.github.io/Treversal-Of-Tree/">
 <meta property="og:site_name" content="Le blog de Siyao">
 
 
 
 
 
-<link rel="canonical" href="http://si-yao.github.io/Kinect-Tracking/">
+<link rel="canonical" href="http://si-yao.github.io/Treversal-Of-Tree/">
 <link href="http://si-yao.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Le blog de Siyao Feed">
 
 
@@ -109,7 +109,7 @@
 <div class="entry-header">
   <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
   <div class="entry-image">
-    <img src="http://si-yao.github.io/images/abstract-3.jpg" alt="Demo: Kinect Tracking(Undergrad Proj)">
+    <img src="http://si-yao.github.io/images/abstract-3.jpg" alt="Summary of Binary Tree Traversal">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -119,44 +119,58 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://si-yao.github.io/Kinect-Tracking/" rel="bookmark" title="Demo: Kinect Tracking(Undergrad Proj)">Demo: Kinect Tracking(Undergrad Proj)</a></h1>
+          <h1 class="entry-title"><a href="http://si-yao.github.io/Treversal-Of-Tree/" rel="bookmark" title="Summary of Binary Tree Traversal">Summary of Binary Tree Traversal</a></h1>
         
-        <h2>December 09, 2014</h2>
+        <h2>January 28, 2015</h2>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~1 minute
+          Reading time ~287/200 minutes
         </p><!-- /.entry-reading-time -->
         
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <iframe width="420" height="315" src="//www.youtube.com/embed/FXSV6U0wo-s" frameborder="0" allowfullscreen=""></iframe>
+      <p>I guess some people think that iterative version of tree traversal is tedious to implement. But I found a very interesting fact that could make it as simple as recursive version.</p>
 
-<p>I would like to share my undergrad proj with my friends.</p>
+<p>As a reminder, for recursive version of pre/in/post-order traversal, the only difference is the order of following three lines:</p>
 
-<p>I Involved in Computer Vision research and Microsoft Kinect development. Designed and developed a high-performance face tracking application using depth image from Kinect. The project is implemented in C++ with OpenCV. </p>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//rec-l1</span>
+<span class="n">print</span><span class="o">(</span><span class="n">root</span><span class="o">);</span><span class="c1">//rec-l2</span>
+<span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//rec-;3</span></code></pre></div>
 
-<p><strong>The importance of the project is that:</strong></p>
+<p>Similarly, if we take advantage of dummy node, for iterative version, the only difference is also the order of three lines:</p>
 
-<ol>
-  <li>Your face can be highly covered by obstacles. (Demonstrated at 0:40)</li>
-  <li>it is able to track face in dark environment! (Demonstrated at 1:40)</li>
-</ol>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//iter-l1</span>
+<span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">);</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span><span class="c1">//iter-l2</span>
+<span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//iter-l3</span></code></pre></div>
 
-<p><strong>Thanks to my advior: <a href="http://bcmi.sjtu.edu.cn/~blu/">Prof. Baoliang Lu</a></strong></p>
+<p>You may have noticed that the above two clips of code both represent the inorder traversal. And if we follow the order of rec-l1, rec-l3, rec-l2 or iter-l2, iter-l1, iter-l3, then we could get the postorder traversal. The source code of iterative version is shown at:</p>
+
+<ul>
+  <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreeInorderTraversal/DummyNode.java">inorder (iterative)</a></li>
+  <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/DummyNode.java">postorder (iterative)</a></li>
+</ul>
+
+<p>Most interestingly, there is another property of postorder traversal. Suppose we have a tree T, and the mirror tree of T is T’. Then <em>postorder(T).reverse()</em> equals to <em>preorder(T’)</em>. So, if we use two stacks, then we could solve the postorder problem more simpler! The source code is shown at: </p>
+
+<ul>
+  <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/TwoStack.java">postorder (two stacks)</a></li>
+</ul>
+
+<p>Both 2 solutions for postorder traversal can be extended to solve the n-ary tree postorder traversal (which could be a follow-up in a interview!). </p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://si-yao.github.io/tags/#vision" title="Pages tagged vision" class="tag">vision</a></span>
-        <span><a href="http://si-yao.github.io/Kinect-Tracking/" rel="bookmark" title="Demo: Kinect Tracking(Undergrad Proj)">Demo: Kinect Tracking(Undergrad Proj)</a> was published on <span class="entry-date date published updated"><time datetime="2014-12-09T00:00:00-05:00">December 09, 2014</time></span></span>
+        <span class="entry-tags"><a href="http://si-yao.github.io/tags/#algorithm" title="Pages tagged algorithm" class="tag">algorithm</a><a href="http://si-yao.github.io/tags/#technology" title="Pages tagged technology" class="tag">technology</a></span>
+        <span><a href="http://si-yao.github.io/Treversal-Of-Tree/" rel="bookmark" title="Summary of Binary Tree Traversal">Summary of Binary Tree Traversal</a> was published on <span class="entry-date date published updated"><time datetime="2015-01-28T00:00:00-05:00">January 28, 2015</time></span></span>
         
         <span class="author vcard"><span class="fn"><a href="http://si-yao.github.io/about/" title="About Siyao">Siyao</a></span></span>
         <div class="social-share">
           <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://si-yao.github.io/Kinect-Tracking/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://si-yao.github.io/Kinect-Tracking/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url=http://si-yao.github.io/Kinect-Tracking/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://si-yao.github.io/Treversal-Of-Tree/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://si-yao.github.io/Treversal-Of-Tree/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://si-yao.github.io/Treversal-Of-Tree/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->
       </footer>
@@ -166,7 +180,7 @@
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" class="read-more-btn">Read More</a>
+          <a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
           <h3><a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/" title="iOS: 3 Ways to Create Views">iOS: 3 Ways to Create Views</a></h3>

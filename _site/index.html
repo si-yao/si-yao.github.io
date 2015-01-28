@@ -125,6 +125,55 @@
 <article class="hentry">
   <header>
     <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="2015-01-28T00:00:00-05:00"><a href="http://si-yao.github.io/Treversal-Of-Tree/">January 28, 2015</a></time></span><span class="author vcard"><span class="fn"><a href="http://si-yao.github.io/about/" title="About Siyao">Siyao</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://si-yao.github.io/Treversal-Of-Tree/#disqus_thread">Comment</a></span>
+      
+      <span class="entry-reading-time pull-right">
+        <i class="fa fa-clock-o"></i>
+        
+        Reading time ~287/200 minutes
+      </span><!-- /.entry-reading-time -->
+      
+    </div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="http://si-yao.github.io/Treversal-Of-Tree/" rel="bookmark" title="Summary of Binary Tree Traversal" itemprop="url">Summary of Binary Tree Traversal</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>I guess some people think that iterative version of tree traversal is tedious to implement. But I found a very interesting fact that could make it as simple as recursive version.</p>
+
+<p>As a reminder, for recursive version of pre/in/post-order traversal, the only difference is the order of following three lines:</p>
+
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//rec-l1</span>
+<span class="n">print</span><span class="o">(</span><span class="n">root</span><span class="o">);</span><span class="c1">//rec-l2</span>
+<span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//rec-;3</span></code></pre></div>
+
+<p>Similarly, if we take advantage of dummy node, for iterative version, the only difference is also the order of three lines:</p>
+
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//iter-l1</span>
+<span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">);</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span><span class="c1">//iter-l2</span>
+<span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//iter-l3</span></code></pre></div>
+
+<p>You may have noticed that the above two clips of code both represent the inorder traversal. And if we follow the order of rec-l1, rec-l3, rec-l2 or iter-l2, iter-l1, iter-l3, then we could get the postorder traversal. The source code of iterative version is shown at:</p>
+
+<ul>
+  <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreeInorderTraversal/DummyNode.java">inorder (iterative)</a></li>
+  <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/DummyNode.java">postorder (iterative)</a></li>
+</ul>
+
+<p>Most interestingly, there is another property of postorder traversal. Suppose we have a tree T, and the mirror tree of T is T’. Then <em>postorder(T).reverse()</em> equals to <em>preorder(T’)</em>. So, if we use two stacks, then we could solve the postorder problem more simpler! The source code is shown at: </p>
+
+<ul>
+  <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/TwoStack.java">postorder (two stacks)</a></li>
+</ul>
+
+<p>Both 2 solutions for postorder traversal can be extended to solve the n-ary tree postorder traversal (which could be a follow-up in a interview!). </p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="2015-01-25T00:00:00-05:00"><a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/">January 25, 2015</a></time></span><span class="author vcard"><span class="fn"><a href="http://si-yao.github.io/about/" title="About Siyao">Siyao</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/#disqus_thread">Comment</a></span>
       
       <span class="entry-reading-time pull-right">
@@ -148,41 +197,6 @@
 </ul>
 
 <p>I initially followed the <strong><a href="https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html">tutorial</a></strong> provided by Apple, and it instructs to use storyboard to organize views, which is visualizable. And later on I found <strong><a href="https://github.com/fbsamples/ios-howtos">some other projects</a></strong> are using xib. Some articles summrized the pro/con of those two methods. But the most interesting/technical way is to write view by code. I dig into the source code of <strong><a href="https://parse.com/tutorials/anypic">Anypic</a></strong>, and fonud that programming the view is more universal though less visualizable. But I still love the third one. I found an <strong><a href="http://codewithchris.com/xcode-using-storyboards-and-xibs-versus-creating-views-programmatically/">article</a></strong> the compares the 3 methods for reference. </p>
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2014-12-09T00:00:00-05:00"><a href="http://si-yao.github.io/Kinect-Tracking/">December 09, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://si-yao.github.io/about/" title="About Siyao">Siyao</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://si-yao.github.io/Kinect-Tracking/#disqus_thread">Comment</a></span>
-      
-      <span class="entry-reading-time pull-right">
-        <i class="fa fa-clock-o"></i>
-        
-        Reading time ~1 minute
-      </span><!-- /.entry-reading-time -->
-      
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://si-yao.github.io/Kinect-Tracking/" rel="bookmark" title="Demo: Kinect Tracking(Undergrad Proj)" itemprop="url">Demo: Kinect Tracking(Undergrad Proj)</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <iframe width="420" height="315" src="//www.youtube.com/embed/FXSV6U0wo-s" frameborder="0" allowfullscreen=""></iframe>
-
-<p>I would like to share my undergrad proj with my friends.</p>
-
-<p>I Involved in Computer Vision research and Microsoft Kinect development. Designed and developed a high-performance face tracking application using depth image from Kinect. The project is implemented in C++ with OpenCV. </p>
-
-<p><strong>The importance of the project is that:</strong></p>
-
-<ol>
-  <li>Your face can be highly covered by obstacles. (Demonstrated at 0:40)</li>
-  <li>it is able to track face in dark environment! (Demonstrated at 1:40)</li>
-</ol>
-
-<p><strong>Thanks to my advior: <a href="http://bcmi.sjtu.edu.cn/~blu/">Prof. Baoliang Lu</a></strong></p>
 
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
