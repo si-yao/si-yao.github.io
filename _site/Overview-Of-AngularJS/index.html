@@ -5,25 +5,25 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Autumn of NYC Comes Quietly &#8211; Le blog de Siyao</title>
-<meta name="description" content="Something">
-<meta name="keywords" content="Life">
+<title>Overview of Angular JS &#8211; Le blog de Siyao</title>
+<meta name="description" content="Custom written post descriptions are the way to go... if you're not lazy.">
+<meta name="keywords" content="technology">
 
 
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Autumn of NYC Comes Quietly">
-<meta property="og:description" content="Something">
-<meta property="og:url" content="http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/">
+<meta property="og:title" content="Overview of Angular JS">
+<meta property="og:description" content="Custom written post descriptions are the way to go... if you're not lazy.">
+<meta property="og:url" content="http://si-yao.github.io/Overview-Of-AngularJS/">
 <meta property="og:site_name" content="Le blog de Siyao">
 
 
 
 
 
-<link rel="canonical" href="http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/">
+<link rel="canonical" href="http://si-yao.github.io/Overview-Of-AngularJS/">
 <link href="http://si-yao.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Le blog de Siyao Feed">
 
 
@@ -109,7 +109,7 @@
 <div class="entry-header">
   <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
   <div class="entry-image">
-    <img src="http://si-yao.github.io/images/abstract-3.jpg" alt="Autumn of NYC Comes Quietly">
+    <img src="http://si-yao.github.io/images/abstract-3.jpg" alt="Overview of Angular JS">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
@@ -119,41 +119,61 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" rel="bookmark" title="Autumn of NYC Comes Quietly">Autumn of NYC Comes Quietly</a></h1>
+          <h1 class="entry-title"><a href="http://si-yao.github.io/Overview-Of-AngularJS/" rel="bookmark" title="Overview of Angular JS">Overview of Angular JS</a></h1>
         
-        <h2>October 12, 2014</h2>
+        <h2>February 09, 2015</h2>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~1 minute
+          Reading time ~397/200 minutes
         </p><!-- /.entry-reading-time -->
         
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>Bad cough, homeworks, interview, midterm, but the only thing I didn’t care is the autumn that I have missed for 4 years.
-Very similar to the aumtumn of Beijing, it is cool, it is dry, and it is landscape.
-<figure class="half">
-	<a href="/images/autumn2s.jpg"><img src="/images/autumn2.jpg" alt="" /></a>
-	<a href="/images/autumn3s.jpg"><img src="/images/autumn3.jpg" alt="" /></a>
-</figure></p>
+      <h1 id="angularjs">AngularJS?</h1>
 
-<figure>
-	<a href="/images/autumn4s.jpg"><img src="/images/autumn4.JPG" alt="" /></a>
-	<figcaption>View Outside My Window</figcaption>
-</figure>
+<p><img src="https://angularjs.org/img/AngularJS-large.png" /></p>
+
+<p>Based on JavaScript, like PHP and other script languages, can do (virtually) everything at client side. </p>
+
+<h1 id="build-website-by-angularjs">Build Website by AngularJS?</h1>
+<p>It is enough! </p>
+
+<h2 id="how-to-deploy-on-server">How to deploy on server?</h2>
+
+<p>I was confused by this. Because you can click the html file and see the website, but how to access via Internet? Apache server! It hold files on server, very powerful!</p>
+
+<h2 id="sometimes-need-more">Sometimes need more</h2>
+
+<h3 id="bower">Bower?</h3>
+<p>Package denpendecy manager. Declare lib dependency in bower.json, and type “bower install” to download all js libs. It is like maven in Java, but more light-weighted.</p>
+
+<h3 id="grunt">Grunt?</h3>
+<p>Make script alive. It is “task runner”, doing automations. Simply, it is something outside AngularJS, and do testing, minimize js libs into 1 file, and also can start up a server for scripts. Then you don’t need Apache server any more.</p>
+
+<h1 id="enough-by-angularjs">Enough by AngularJS?</h1>
+<p>Not really! Script is mainly used for loading views and handling some logic by controller in the middle. But cannot take heavy tasks. So we need more! MEAN.JS is a solution! MongoDB, Express, AngularJS, NodeJS. We have focused on AngularJS on client side. Now, M+E+N build the back-end server. Express is the web framework building on NodeJS, making it easier to handle web events. And NodeJS is server-side JS which connects MongoDB. MongoDB creates/ updates/ inserts/ deletes/ queries Json-format data. </p>
+
+<h1 id="general-view-of-app">General View of App</h1>
+<p>Generally, back-end server runs REST service. And front-end AngularJS makes request to REST server, and get data to update views. That is very similar to mobile App dev. Client side code is equivalent to mobile app code, which both make request to REST server (or other ways) to obtain required data to update views. But mobile app is more complicated as it has cache mechanism so that can run offline as well. </p>
+
+<p>Some traditional web apps, according to my understanding, are more rigid for front/back-end binding. Like structs in J2EE, the web app runs on the web container, and catch URL request, then route it to some functions to do logics, and then render the view page (asp for example), injecting data and loading the view. The workflow is like: request -&gt;(struts) back-end -&gt; view with data. And the web work with REST service is like: request -&gt; view without data(js/php) -&gt; back-end(restful) -&gt; view with data.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+<p>Should learn more!	</p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://si-yao.github.io/tags/#Life" title="Pages tagged Life" class="tag">Life</a></span>
-        <span><a href="http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" rel="bookmark" title="Autumn of NYC Comes Quietly">Autumn of NYC Comes Quietly</a> was published on <span class="entry-date date published updated"><time datetime="2014-10-12T00:00:00-04:00">October 12, 2014</time></span></span>
+        <span class="entry-tags"><a href="http://si-yao.github.io/tags/#technology" title="Pages tagged technology" class="tag">technology</a></span>
+        <span><a href="http://si-yao.github.io/Overview-Of-AngularJS/" rel="bookmark" title="Overview of Angular JS">Overview of Angular JS</a> was published on <span class="entry-date date published updated"><time datetime="2015-02-09T00:00:00-05:00">February 09, 2015</time></span></span>
         
         <span class="author vcard"><span class="fn"><a href="http://si-yao.github.io/about/" title="About Siyao">Siyao</a></span></span>
         <div class="social-share">
           <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url=http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://si-yao.github.io/Overview-Of-AngularJS/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://si-yao.github.io/Overview-Of-AngularJS/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://si-yao.github.io/Overview-Of-AngularJS/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->
       </footer>
@@ -163,23 +183,23 @@ Very similar to the aumtumn of Beijing, it is cool, it is dry, and it is landsca
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://si-yao.github.io/night-of-new-york-city/" class="read-more-btn">Read More</a>
+          <a href="http://si-yao.github.io/Treversal-Of-Tree/" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
-          <h3><a href="http://si-yao.github.io/Overview-Of-AngularJS/" title="Overview of Angular JS">Overview of Angular JS</a></h3>
-          <p>Custom written post descriptions are the way to go... if you're not lazy. <a href="http://si-yao.github.io/Overview-Of-AngularJS/">Continue reading</a></p>
+          <h3><a href="http://si-yao.github.io/Treversal-Of-Tree/" title="Summary of Binary Tree Traversal">Summary of Binary Tree Traversal</a></h3>
+          <p>Custom written post descriptions are the way to go... if you're not lazy. <a href="http://si-yao.github.io/Treversal-Of-Tree/">Continue reading</a></p>
         </div><!-- /.read-more-content -->
       
       <div class="read-more-list">
         
           <div class="list-item">
-            <h4><a href="http://si-yao.github.io/Treversal-Of-Tree/" title="Summary of Binary Tree Traversal">Summary of Binary Tree Traversal</a></h4>
-            <span>Published on January 28, 2015</span>
+            <h4><a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/" title="iOS: 3 Ways to Create Views">iOS: 3 Ways to Create Views</a></h4>
+            <span>Published on January 25, 2015</span>
           </div><!-- /.list-item -->
         
           <div class="list-item">
-            <h4><a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/" title="iOS: 3 Ways to Create Views">iOS: 3 Ways to Create Views</a></h4>
-            <span>Published on January 25, 2015</span>
+            <h4><a href="http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" title="Autumn of NYC Comes Quietly">Autumn of NYC Comes Quietly</a></h4>
+            <span>Published on October 12, 2014</span>
           </div><!-- /.list-item -->
         
       </div><!-- /.read-more-list -->

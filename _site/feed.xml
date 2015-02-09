@@ -4,13 +4,60 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://si-yao.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://si-yao.github.io" />
-<updated>2015-01-28T00:42:04-05:00</updated>
+<updated>2015-02-09T00:47:35-05:00</updated>
 <id>http://si-yao.github.io/</id>
 <author>
   <name>Siyao</name>
   <uri>http://si-yao.github.io/</uri>
   <email></email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Overview of Angular JS]]></title>
+ <link rel="alternate" type="text/html" href="http://si-yao.github.io/Overview-Of-AngularJS/" />
+  <id>http://si-yao.github.io/Overview-Of-AngularJS</id>
+  <published>2015-02-09T00:00:00-05:00</published>
+  <updated>2015-02-09T00:00:00-05:00</updated>
+  <author>
+    <name>Siyao</name>
+    <uri>http://si-yao.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;h1 id=&quot;angularjs&quot;&gt;AngularJS?&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://angularjs.org/img/AngularJS-large.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Based on JavaScript, like PHP and other script languages, can do (virtually) everything at client side. &lt;/p&gt;
+
+&lt;h1 id=&quot;build-website-by-angularjs&quot;&gt;Build Website by AngularJS?&lt;/h1&gt;
+&lt;p&gt;It is enough! &lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-deploy-on-server&quot;&gt;How to deploy on server?&lt;/h2&gt;
+
+&lt;p&gt;I was confused by this. Because you can click the html file and see the website, but how to access via Internet? Apache server! It hold files on server, very powerful!&lt;/p&gt;
+
+&lt;h2 id=&quot;sometimes-need-more&quot;&gt;Sometimes need more&lt;/h2&gt;
+
+&lt;h3 id=&quot;bower&quot;&gt;Bower?&lt;/h3&gt;
+&lt;p&gt;Package denpendecy manager. Declare lib dependency in bower.json, and type “bower install” to download all js libs. It is like maven in Java, but more light-weighted.&lt;/p&gt;
+
+&lt;h3 id=&quot;grunt&quot;&gt;Grunt?&lt;/h3&gt;
+&lt;p&gt;Make script alive. It is “task runner”, doing automations. Simply, it is something outside AngularJS, and do testing, minimize js libs into 1 file, and also can start up a server for scripts. Then you don’t need Apache server any more.&lt;/p&gt;
+
+&lt;h1 id=&quot;enough-by-angularjs&quot;&gt;Enough by AngularJS?&lt;/h1&gt;
+&lt;p&gt;Not really! Script is mainly used for loading views and handling some logic by controller in the middle. But cannot take heavy tasks. So we need more! MEAN.JS is a solution! MongoDB, Express, AngularJS, NodeJS. We have focused on AngularJS on client side. Now, M+E+N build the back-end server. Express is the web framework building on NodeJS, making it easier to handle web events. And NodeJS is server-side JS which connects MongoDB. MongoDB creates/ updates/ inserts/ deletes/ queries Json-format data. &lt;/p&gt;
+
+&lt;h1 id=&quot;general-view-of-app&quot;&gt;General View of App&lt;/h1&gt;
+&lt;p&gt;Generally, back-end server runs REST service. And front-end AngularJS makes request to REST server, and get data to update views. That is very similar to mobile App dev. Client side code is equivalent to mobile app code, which both make request to REST server (or other ways) to obtain required data to update views. But mobile app is more complicated as it has cache mechanism so that can run offline as well. &lt;/p&gt;
+
+&lt;p&gt;Some traditional web apps, according to my understanding, are more rigid for front/back-end binding. Like structs in J2EE, the web app runs on the web container, and catch URL request, then route it to some functions to do logics, and then render the view page (asp for example), injecting data and loading the view. The workflow is like: request -&amp;gt;(struts) back-end -&amp;gt; view with data. And the web work with REST service is like: request -&amp;gt; view without data(js/php) -&amp;gt; back-end(restful) -&amp;gt; view with data.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Should learn more!	&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Overview-Of-AngularJS/&quot;&gt;Overview of Angular JS&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on February 09, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
