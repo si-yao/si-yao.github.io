@@ -126,7 +126,7 @@
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~287/200 minutes
+          Reading time ~1 minute
         </p><!-- /.entry-reading-time -->
         
       </div><!-- /.header-title-wrap -->
@@ -136,15 +136,15 @@
 
 <p>As a reminder, for recursive version of pre/in/post-order traversal, the only difference is the order of following three lines:</p>
 
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//rec-l1</span>
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//rec-l1</span>
 <span class="n">print</span><span class="o">(</span><span class="n">root</span><span class="o">);</span><span class="c1">//rec-l2</span>
-<span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//rec-;3</span></code></pre></div>
+<span class="n">dfs</span><span class="o">(</span><span class="n">root</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//rec-;3</span></code></pre></figure>
 
 <p>Similarly, if we take advantage of dummy node, for iterative version, the only difference is also the order of three lines:</p>
 
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//iter-l1</span>
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">right</span><span class="o">);</span><span class="c1">//iter-l1</span>
 <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">);</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="kc">null</span><span class="o">);</span><span class="c1">//iter-l2</span>
-<span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//iter-l3</span></code></pre></div>
+<span class="k">if</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">!=</span><span class="kc">null</span><span class="o">)</span> <span class="n">stack</span><span class="o">.</span><span class="na">push</span><span class="o">(</span><span class="n">node</span><span class="o">.</span><span class="na">left</span><span class="o">);</span><span class="c1">//iter-l3</span></code></pre></figure>
 
 <p>You may have noticed that the above two clips of code both represent the inorder traversal. And if we follow the order of rec-l1, rec-l3, rec-l2 or iter-l2, iter-l1, iter-l3, then we could get the postorder traversal. The source code of iterative version is shown at:</p>
 
@@ -153,13 +153,13 @@
   <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/DummyNode.java">postorder (iterative)</a></li>
 </ul>
 
-<p>Most interestingly, there is another property of postorder traversal. Suppose we have a tree T, and the mirror tree of T is T’. Then <em>postorder(T).reverse()</em> equals to <em>preorder(T’)</em>. So, if we use two stacks, then we could solve the postorder problem more simpler! The source code is shown at: </p>
+<p>Most interestingly, there is another property of postorder traversal. Suppose we have a tree T, and the mirror tree of T is T’. Then <em>postorder(T).reverse()</em> equals to <em>preorder(T’)</em>. So, if we use two stacks, then we could solve the postorder problem more simpler! The source code is shown at:</p>
 
 <ul>
   <li><a href="https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/TwoStack.java">postorder (two stacks)</a></li>
 </ul>
 
-<p>Both 2 solutions for postorder traversal can be extended to solve the n-ary tree postorder traversal (which could be a follow-up in a interview!). </p>
+<p>Both 2 solutions for postorder traversal can be extended to solve the n-ary tree postorder traversal (which could be a follow-up in a interview!).</p>
 
       <footer class="entry-meta">
         <span class="entry-tags"><a href="http://si-yao.github.io/tags/#algorithm" title="Pages tagged algorithm" class="tag">algorithm</a><a href="http://si-yao.github.io/tags/#technology" title="Pages tagged technology" class="tag">technology</a></span>
@@ -183,20 +183,20 @@
           <a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
-          <h3><a href="http://si-yao.github.io/Tiger-Eyes/" title="Independent Film: Tiger Eyes">Independent Film: Tiger Eyes</a></h3>
-          <p>Custom written post descriptions are the way to go... if you're not lazy. <a href="http://si-yao.github.io/Tiger-Eyes/">Continue reading</a></p>
+          <h3><a href="http://si-yao.github.io/Why-Coding-Algorithms/" title="Why coding algorithms">Why coding algorithms</a></h3>
+          <p>Article explains my thoughts on continue solving algorithms challenges. <a href="http://si-yao.github.io/Why-Coding-Algorithms/">Continue reading</a></p>
         </div><!-- /.read-more-content -->
       
       <div class="read-more-list">
         
           <div class="list-item">
-            <h4><a href="http://si-yao.github.io/Overview-Of-AngularJS/" title="Overview of Angular JS">Overview of Angular JS</a></h4>
-            <span>Published on February 09, 2015</span>
+            <h4><a href="http://si-yao.github.io/Tiger-Eyes/" title="Independent Film: Tiger Eyes">Independent Film: Tiger Eyes</a></h4>
+            <span>Published on February 13, 2015</span>
           </div><!-- /.list-item -->
         
           <div class="list-item">
-            <h4><a href="http://si-yao.github.io/IOS-3-Ways-To-Create-Views/" title="iOS: 3 Ways to Create Views">iOS: 3 Ways to Create Views</a></h4>
-            <span>Published on January 25, 2015</span>
+            <h4><a href="http://si-yao.github.io/Overview-Of-AngularJS/" title="Overview of Angular JS">Overview of Angular JS</a></h4>
+            <span>Published on February 09, 2015</span>
           </div><!-- /.list-item -->
         
       </div><!-- /.read-more-list -->
@@ -207,7 +207,7 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2015 Siyao. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.</span>
+    <span>&copy; 2018 Siyao. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.</span>
   </footer>
 </div><!-- /.footer-wrapper -->
 

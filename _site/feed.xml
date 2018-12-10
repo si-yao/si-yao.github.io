@@ -4,13 +4,35 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://si-yao.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://si-yao.github.io" />
-<updated>2015-02-13T17:53:12-05:00</updated>
+<updated>2018-12-09T21:11:40-05:00</updated>
 <id>http://si-yao.github.io/</id>
 <author>
   <name>Siyao</name>
   <uri>http://si-yao.github.io/</uri>
   <email></email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Why coding algorithms]]></title>
+ <link rel="alternate" type="text/html" href="http://si-yao.github.io/Why-Coding-Algorithms/" />
+  <id>http://si-yao.github.io/Why-Coding-Algorithms</id>
+  <published>2018-12-09T00:00:00-05:00</published>
+  <updated>2018-12-09T00:00:00-05:00</updated>
+  <author>
+    <name>Siyao</name>
+    <uri>http://si-yao.github.io</uri>
+    <email></email>
+  </author>
+  <content type="html">&lt;p&gt;Algorithm is fundamental of computer science, though it is not directly demanded by daily work. Continuing learning and solving algorithm problems makes me constantly aware of how many difficult problems exist in computer science area, and how tiny I am in computer science field. That is a big getaway for me, as CSer and tech worker, from the hype of all various of technologies, from up-and-down bubbled tech stock price, and from lucrative compensation TC numbers. It remindes me how I started CS track, and how I learned CS, and how I struggled CS. I like the feeling of appreciation among all challenging problems of CS.&lt;/p&gt;
+
+&lt;p&gt;Keep coding, keep learning.&lt;/p&gt;
+
+&lt;p&gt;SL.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Why-Coding-Algorithms/&quot;&gt;Why coding algorithms&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on December 09, 2018.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -24,9 +46,9 @@
     <uri>http://si-yao.github.io</uri>
     <email></email>
   </author>
-  <content type="html">&lt;p&gt;I love independent film. &lt;/p&gt;
+  <content type="html">&lt;p&gt;I love independent film.&lt;/p&gt;
 
-&lt;p&gt;Independent film is a kind of art, conveying intensive view of everything, while movies in theater is better for killing time. &lt;/p&gt;
+&lt;p&gt;Independent film is a kind of art, conveying intensive view of everything, while movies in theater is better for killing time.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://www.csmonitor.com/var/ezflow_site/storage/images/media/content/2013/05-14teyes/15786635-1-eng-US/05-14teyes_full_600.jpg&quot; alt=&quot;Photo of Tiger Eyes&quot; /&gt;&lt;/p&gt;
 
@@ -51,10 +73,10 @@
 
 &lt;p&gt;&lt;img src=&quot;https://angularjs.org/img/AngularJS-large.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Based on JavaScript, like PHP and other script languages, can do (virtually) everything at client side. &lt;/p&gt;
+&lt;p&gt;Based on JavaScript, like PHP and other script languages, can do (virtually) everything at client side.&lt;/p&gt;
 
 &lt;h1 id=&quot;build-website-by-angularjs&quot;&gt;Build Website by AngularJS?&lt;/h1&gt;
-&lt;p&gt;It is enough! &lt;/p&gt;
+&lt;p&gt;It is enough!&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-deploy-on-server&quot;&gt;How to deploy on server?&lt;/h2&gt;
 
@@ -69,15 +91,15 @@
 &lt;p&gt;Make script alive. It is “task runner”, doing automations. Simply, it is something outside AngularJS, and do testing, minimize js libs into 1 file, and also can start up a server for scripts. Then you don’t need Apache server any more.&lt;/p&gt;
 
 &lt;h1 id=&quot;enough-by-angularjs&quot;&gt;Enough by AngularJS?&lt;/h1&gt;
-&lt;p&gt;Not really! Script is mainly used for loading views and handling some logic by controller in the middle. But cannot take heavy tasks. So we need more! MEAN.JS is a solution! MongoDB, Express, AngularJS, NodeJS. We have focused on AngularJS on client side. Now, M+E+N build the back-end server. Express is the web framework building on NodeJS, making it easier to handle web events. And NodeJS is server-side JS which connects MongoDB. MongoDB creates/ updates/ inserts/ deletes/ queries Json-format data. &lt;/p&gt;
+&lt;p&gt;Not really! Script is mainly used for loading views and handling some logic by controller in the middle. But cannot take heavy tasks. So we need more! MEAN.JS is a solution! MongoDB, Express, AngularJS, NodeJS. We have focused on AngularJS on client side. Now, M+E+N build the back-end server. Express is the web framework building on NodeJS, making it easier to handle web events. And NodeJS is server-side JS which connects MongoDB. MongoDB creates/ updates/ inserts/ deletes/ queries Json-format data.&lt;/p&gt;
 
 &lt;h1 id=&quot;general-view-of-app&quot;&gt;General View of App&lt;/h1&gt;
-&lt;p&gt;Generally, back-end server runs REST service. And front-end AngularJS makes request to REST server, and gets data to update views. That is very similar to mobile App dev. Client side code is equivalent to mobile app code, which both make request to REST server (or other ways) to obtain required data to update views. But mobile app is more complicated as it has cache mechanism so that can run offline as well. &lt;/p&gt;
+&lt;p&gt;Generally, back-end server runs REST service. And front-end AngularJS makes request to REST server, and gets data to update views. That is very similar to mobile App dev. Client side code is equivalent to mobile app code, which both make request to REST server (or other ways) to obtain required data to update views. But mobile app is more complicated as it has cache mechanism so that can run offline as well.&lt;/p&gt;
 
 &lt;p&gt;Some traditional web apps, according to my understanding, are more rigid for front/back-end binding. Like structs in J2EE, the web app runs on the web container, and catch URL request, then route it to some functions to do logics, and then render the view page (asp for example), injecting data and loading the view. The workflow is like: request -&amp;gt;(struts) back-end -&amp;gt; view with data. And the web work with REST service is like: request -&amp;gt; view without data(js/php) -&amp;gt; back-end(restful) -&amp;gt; view with data.&lt;/p&gt;
 
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;Should learn more!	&lt;/p&gt;
+&lt;p&gt;Should learn more!&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Overview-Of-AngularJS/&quot;&gt;Overview of Angular JS&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on February 09, 2015.&lt;/p&gt;</content>
 </entry>
@@ -98,15 +120,15 @@
 
 &lt;p&gt;As a reminder, for recursive version of pre/in/post-order traversal, the only difference is the order of following three lines:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-l1&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-l1&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-l2&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;dfs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;root&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//rec-;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Similarly, if we take advantage of dummy node, for iterative version, the only difference is also the order of three lines:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l1&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l1&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l2&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//iter-l3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;You may have noticed that the above two clips of code both represent the inorder traversal. And if we follow the order of rec-l1, rec-l3, rec-l2 or iter-l2, iter-l1, iter-l3, then we could get the postorder traversal. The source code of iterative version is shown at:&lt;/p&gt;
 
@@ -115,13 +137,13 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/DummyNode.java&quot;&gt;postorder (iterative)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Most interestingly, there is another property of postorder traversal. Suppose we have a tree T, and the mirror tree of T is T’. Then &lt;em&gt;postorder(T).reverse()&lt;/em&gt; equals to &lt;em&gt;preorder(T’)&lt;/em&gt;. So, if we use two stacks, then we could solve the postorder problem more simpler! The source code is shown at: &lt;/p&gt;
+&lt;p&gt;Most interestingly, there is another property of postorder traversal. Suppose we have a tree T, and the mirror tree of T is T’. Then &lt;em&gt;postorder(T).reverse()&lt;/em&gt; equals to &lt;em&gt;preorder(T’)&lt;/em&gt;. So, if we use two stacks, then we could solve the postorder problem more simpler! The source code is shown at:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/si-yao/ArtOfLeetcode/blob/master/src/binaryTreePostorderTraversal/TwoStack.java&quot;&gt;postorder (two stacks)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Both 2 solutions for postorder traversal can be extended to solve the n-ary tree postorder traversal (which could be a follow-up in a interview!). &lt;/p&gt;
+&lt;p&gt;Both 2 solutions for postorder traversal can be extended to solve the n-ary tree postorder traversal (which could be a follow-up in a interview!).&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Treversal-Of-Tree/&quot;&gt;Summary of Binary Tree Traversal&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 28, 2015.&lt;/p&gt;</content>
 </entry>
@@ -138,7 +160,7 @@
     <uri>http://si-yao.github.io</uri>
     <email></email>
   </author>
-  <content type="html">&lt;p&gt;I just started to learn iOS dev. And I discovered 3 ways to organized and navigate views for iOS. &lt;/p&gt;
+  <content type="html">&lt;p&gt;I just started to learn iOS dev. And I discovered 3 ways to organized and navigate views for iOS.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Storyboard&lt;/li&gt;
@@ -146,7 +168,7 @@
   &lt;li&gt;By programming code&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I initially followed the &lt;strong&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html&quot;&gt;tutorial&lt;/a&gt;&lt;/strong&gt; provided by Apple, and it instructs to use storyboard to organize views, which is visualizable. And later on I found &lt;strong&gt;&lt;a href=&quot;https://github.com/fbsamples/ios-howtos&quot;&gt;some other projects&lt;/a&gt;&lt;/strong&gt; are using xib. Some articles summrized the pro/con of those two methods. But the most interesting/technical way is to write view by code. I dig into the source code of &lt;strong&gt;&lt;a href=&quot;https://parse.com/tutorials/anypic&quot;&gt;Anypic&lt;/a&gt;&lt;/strong&gt;, and fonud that programming the view is more universal though less visualizable. But I still love the third one. I found an &lt;strong&gt;&lt;a href=&quot;http://codewithchris.com/xcode-using-storyboards-and-xibs-versus-creating-views-programmatically/&quot;&gt;article&lt;/a&gt;&lt;/strong&gt; the compares the 3 methods for reference. &lt;/p&gt;
+&lt;p&gt;I initially followed the &lt;strong&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/referencelibrary/GettingStarted/RoadMapiOS/index.html&quot;&gt;tutorial&lt;/a&gt;&lt;/strong&gt; provided by Apple, and it instructs to use storyboard to organize views, which is visualizable. And later on I found &lt;strong&gt;&lt;a href=&quot;https://github.com/fbsamples/ios-howtos&quot;&gt;some other projects&lt;/a&gt;&lt;/strong&gt; are using xib. Some articles summrized the pro/con of those two methods. But the most interesting/technical way is to write view by code. I dig into the source code of &lt;strong&gt;&lt;a href=&quot;https://parse.com/tutorials/anypic&quot;&gt;Anypic&lt;/a&gt;&lt;/strong&gt;, and fonud that programming the view is more universal though less visualizable. But I still love the third one. I found an &lt;strong&gt;&lt;a href=&quot;http://codewithchris.com/xcode-using-storyboards-and-xibs-versus-creating-views-programmatically/&quot;&gt;article&lt;/a&gt;&lt;/strong&gt; the compares the 3 methods for reference.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/IOS-3-Ways-To-Create-Views/&quot;&gt;iOS: 3 Ways to Create Views&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on January 25, 2015.&lt;/p&gt;</content>
 </entry>
@@ -154,7 +176,7 @@
 
 <entry>
   <title type="html"><![CDATA[Autumn of NYC Comes Quietly]]></title>
- <link rel="alternate" type="text/html" href="http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/" />
+ <link rel="alternate" type="text/html" href="http://si-yao.github.io/Autumn-of-NYC-Comes-Quietly/" />
   <id>http://si-yao.github.io/Autumn of-NYC-Comes-Quietly</id>
   <published>2014-10-12T00:00:00-04:00</published>
   <updated>2014-10-12T00:00:00-04:00</updated>
@@ -164,18 +186,18 @@
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Bad cough, homeworks, interview, midterm, but the only thing I didn’t care is the autumn that I have missed for 4 years.
-Very similar to the aumtumn of Beijing, it is cool, it is dry, and it is landscape.
+Very similar to the aumtumn of Beijing, it is cool, it is dry, and it is landscape.&lt;/p&gt;
 &lt;figure class=&quot;half&quot;&gt;
 	&lt;a href=&quot;/images/autumn2s.jpg&quot;&gt;&lt;img src=&quot;/images/autumn2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 	&lt;a href=&quot;/images/autumn3s.jpg&quot;&gt;&lt;img src=&quot;/images/autumn3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;&lt;/p&gt;
+&lt;/figure&gt;
 
 &lt;figure&gt;
 	&lt;a href=&quot;/images/autumn4s.jpg&quot;&gt;&lt;img src=&quot;/images/autumn4.JPG&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;View Outside My Window&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Autumn%20of-NYC-Comes-Quietly/&quot;&gt;Autumn of NYC Comes Quietly&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on October 12, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://si-yao.github.io/Autumn-of-NYC-Comes-Quietly/&quot;&gt;Autumn of NYC Comes Quietly&lt;/a&gt; was originally published by Siyao at &lt;a href=&quot;http://si-yao.github.io&quot;&gt;Le blog de Siyao&lt;/a&gt; on October 12, 2014.&lt;/p&gt;</content>
 </entry>
 
 
